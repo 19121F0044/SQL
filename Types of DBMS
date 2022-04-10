@@ -1,0 +1,7 @@
+Three Types of DBMS
+1. Relational Database management System.  
+    In this Data Will be stored in the table format. This tables mine have some relation ship.
+2. Hirarchicle Database Management System.
+    HDBMS data will be stored in the format of tree Structure.
+3. Nework Database Management System.
+    NDMS Data  will be stored int eh tree sturcture format only but data re interconnected the each other.
