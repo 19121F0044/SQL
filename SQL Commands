@@ -4,3 +4,29 @@ DML (Data Manuplation Language): INSERT, UPDATE, DELETE.
 DCL (DATA CONTROL LANGUAGE): GRANT, REVOKE.
 TCL (Transaction control Language): COMMIT, ROLLBACK, SAVEPOINT.
 DQL (Data Query Language): SELECT.
+
+
+
+DDL:
+   DDL changes structure of the table.
+   All DDL commands permently saved into the database.
+   
+   CREATE:  create command is used to create table.
+   Syntax:
+        CREATE TABLE TABLENAME{
+            COLUMN_1 DATATYPE(SIZE),
+             |  |
+             |  |
+            COLUMN_n dataype(size));
+            
+   DROP: It is used to delete both the structure and record stored in the table.
+   Sytax: Drop table TABLENAME
+   
+   ALTER: It is used to alter the structure of the database
+     ALTER TABLE STU_DETAILS ADD(ADDRESS VARCHAR2(20));  
+     ALTER TABLE STU_DETAILS MODIFY (NAME VARCHAR2(20));  
+     
+   TRUNCATE: It is used to delete all the rows from the table and free the space containing the table
+   
+            
+ 
